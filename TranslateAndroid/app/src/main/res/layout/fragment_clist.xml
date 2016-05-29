@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/CL_NameLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CL_NameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/CL_NameLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CL_RatingLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/CL_NameLabelTextView"
+        android:text="@string/rating"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CL_RatingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/CL_RatingLabelTextView"
+        android:layout_toRightOf="@id/CL_RatingLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <RatingBar
+        android:id="@+id/CL_RatingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/CL_RatingLabelTextView"
+        android:layout_toRightOf="@id/CL_RatingTextView"
+        android:isIndicator="true" />
+    
+    <TextView
+        android:id="@+id/CL_RatingNumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/CL_RatingLabelTextView"
+        android:layout_toRightOf="@id/CL_RatingBar"
+        android:text="(0)"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <TextView
+        android:id="@+id/CL_BalanceLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/CL_RatingLabelTextView"
+        android:text="@string/balance"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CL_BalanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CL_RatingLabelTextView"
+        android:layout_toRightOf="@id/CL_BalanceLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/CL_TLangsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/CL_BalanceLabelTextView"
+        android:text="@string/list_lang_list"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/CListScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/CL_TLangsTextView" >
+
+        <LinearLayout
+            android:id="@+id/CListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

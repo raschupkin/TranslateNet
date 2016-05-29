@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+    
+    <!-- SettingsPhone form -->
+    <RelativeLayout
+        android:id="@+id/SP_form"
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+   		android:orientation="vertical" >
+	    <TextView
+    	    android:id="@+id/SP_DescrTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/settings_phone_descr"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+    	    android:id="@+id/SP_PhoneLabelTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/SP_DescrTextView"
+        	android:text="@string/phone"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/SP_PhoneTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/SP_DescrTextView"
+	        android:layout_toRightOf="@id/SP_PhoneLabelTextView"
+	        android:text="@string/default_value"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+    	    android:id="@+id/SP_StatusLabelTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/SP_PhoneLabelTextView"
+        	android:text="@string/status"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/SP_StatusTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/SP_PhoneLabelTextView"
+	        android:layout_toRightOf="@id/SP_StatusLabelTextView"
+	        android:text="@string/default_value"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <Button
+			android:id="@+id/SP_ChangeButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/SP_StatusTextView"
+			android:text="@string/update" />
+        <Button
+            android:id="@+id/SP_ResendSMSButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/SP_ChangeButton"
+            android:enabled="false"
+            android:text="@string/resend_sms" />
+	    <TextView
+	        android:id="@+id/SP_CodeLabelTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_below="@id/SP_ResendSMSButton"
+	        android:text="@string/sms_code"
+	        android:enabled="false"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 	    <EditText
+        	android:id="@+id/SP_CodeEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_below="@id/SP_CodeLabelTextView"
+	        android:enabled="false"
+            android:inputType="number"
+            android:maxLines="1"
+            android:ems="8"
+            android:singleLine="true" />
+	    <Button
+			android:id="@+id/SP_DoneButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/SP_CodeEditText"
+	        android:enabled="false"
+			android:text="@string/done" />
+	</RelativeLayout>
+</RelativeLayout>

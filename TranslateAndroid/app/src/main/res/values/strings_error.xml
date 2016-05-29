@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="ERROR_NOERROR">"Success."</string>
+<string name="ERROR_OTHER">"Unknown error."</string>
+<string name="ERROR_MAINTENANCE">"Server is rebooting for maintanence."</string>
+<string name="ERROR_VERSION">"Obsolete version. Please update this app."</string>
+<string name="ERROR_FORMAT">"Error communicating with server."</string>
+<string name="ERROR_NO_USER">"User not found."</string>
+<string name="ERROR_USER_OFFLINE">"User offline."</string>
+<string name="ERROR_USER_ALREADY_EXIST">"User already exist."</string>
+<string name="ERROR_ALREADY_LOGIN">"Already logged in."</string>
+<string name="ERROR_LOGIN_REQUIRED">"Login required."</string>
+<string name="ERROR_WRONG_PASSWORD">"Wrong password."</string>
+<string name="ERROR_WRONG_SMSCODE">"Incorrect SMS code."</string> 
+<string name="ERROR_NO_USERDATA">"User not fully configured."</string>
+<string name="ERROR_NO_PHONE">"It is necessary to configure phone number to make calls."</string>
+<string name="ERROR_PHONE_CHANGED">"If you changed your phone number then its is necessary to update Settings->Phone number settings."</string>
+    <!-- "Settings->Phone number settings" is the string from strings.xml\actions_settings_phone -->
+<string name="ERROR_NO_LANG">"Base language not configured"</string>
+<string name="ERROR_PHONE_AWAITING">"Awaiting for phone number confirmation."</string>
+    <!-- Whole sentence: "Maximum number of SMS sent. Try again in 47 days."-->
+<string name="ERROR_TEMP_BLOCKED_1">"Maximum number of SMS sent. Try again in "</string>
+<string name="ERROR_TEMP_BLOCKED_2">"days."</string>
+<string name="ERROR_UNKOWN_CALL">"Aborted processing of unknown call."</string>
+<string name="ERROR_CALL_EXIST">"Call already exist."</string>
+<string name="ERROR_CALL_STATE">"Wrong call state."</string>
+<string name="ERROR_BALANCE_1">"Low balance."</string>
+    <!--Whole sentence example: Deposit money for at least 1:30 call to translator-->
+<string name="ERROR_BALANCE_2">"Deposit money fot at least "</string>
+<string name="ERROR_BALANCE_3">"call to translator."</string>
+<string name="ERROR_PHONECALL_ERROR">"Phonecall error."</string>
+<string name="ERROR_PEER_DISCON">"Peer disconnected."</string>
+<string name="ERROR_RATING_ERROR">"Rating error."</string>
+<string name="ERROR_PAYPAL_TRANSFER_ACTIVE">"PayPal transfer pending."</string>
+<string name="ERROR_PURCHASE_SIGNATURE">"Purchase verify error."</string>
+<string name="ERROR_ANOTHER_LOGIN">"Another user logged into the account."</string>
+<string name="ERROR_ANOTHER_PHONE">"Another user with same phone logged into the account."</string>
+<string name="ERROR_UNKNOWN_COUNTRY">"Unable to determine country."</string>
+<string name="ERROR_NAME_EXIST">"User with such name already exist."</string>
+<string name="ERROR_UNKNOWN">"Unknown error."</string>
+</resources>

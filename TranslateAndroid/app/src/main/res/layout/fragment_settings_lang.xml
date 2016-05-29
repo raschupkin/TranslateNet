@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <!--LangSettings form -->
+    <RelativeLayout
+        android:id="@+id/SL_form"
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+   		android:orientation="vertical" >
+	    <TextView
+    	    android:id="@+id/SL_DescrTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lang_descr"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <TextView
+			android:id="@+id/SL_LangDescrTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/SL_DescrTextView"
+			android:layout_alignParentLeft="true"
+			android:text="@string/lang"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <TextView
+			android:id="@+id/SL_LangTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/SL_DescrTextView"
+			android:layout_toRightOf="@id/SL_LangDescrTextView"
+			android:text="@string/default_value"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+	    <Button
+			android:id="@+id/SL_SelectButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignTop="@id/SL_LangTextView"
+			android:text="@string/select" />
+	    	
+	    <Button
+			android:id="@+id/SL_DoneButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/SL_SelectButton"
+			android:text="@string/done" />
+	</RelativeLayout>
+</RelativeLayout>

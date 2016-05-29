@@ -1,0 +1,44 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.translatenet.LoginActivity" >
+   	<RelativeLayout
+		android:id="@+id/AL_status"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:visibility="gone" >	
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center">
+	        <ProgressBar
+	            android:id="@+id/AL_progressbar"
+	            style="?android:attr/progressBarStyleLarge"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginBottom="8dp" />
+	        
+	        <TextView
+	            android:id="@+id/AL_status_message"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="16dp"
+	            android:layout_below="@id/AL_progressbar"
+	            android:fontFamily="sans-serif-light"
+	            android:text="@string/loading"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+		android:id="@+id/AL_Form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >  
+       <FrameLayout
+            android:id="@+id/frame_login_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" >
+        </FrameLayout>
+	</RelativeLayout>
+</merge>

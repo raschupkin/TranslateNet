@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.translatenet.HistoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:id="@+id/H_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/H_DescrTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/act_history"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/done"
+                android:id="@+id/H_DoneButton"
+                android:layout_alignParentBottom="true" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/H_CallListScrollView"
+                android:layout_below="@id/H_DescrTextView"
+                android:layout_above="@id/H_DoneButton"
+                android:fillViewport="true" >
+                <LinearLayout
+                    android:id="@+id/H_CallListLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+</FrameLayout>

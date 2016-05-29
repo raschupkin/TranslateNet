@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:id="@+id/register_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+       	    <TextView
+	        android:id="@+id/registerTextView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/prompt_email"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       	    <EditText
+                android:id="@+id/register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+	        <LinearLayout
+	            style="@style/LoginFormContainer"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	            <Button
+	                android:id="@+id/cancel_button"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="left"
+	                android:layout_marginTop="16dp"
+	                android:paddingLeft="32dp"
+	                android:paddingRight="32dp"
+	                android:text="@string/cancel" />	       	    
+	            <Button
+	                android:id="@+id/register_button"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right"
+	                android:layout_marginTop="16dp"
+	                android:paddingLeft="32dp"
+	                android:paddingRight="32dp"
+	                android:text="@string/action_register" />
+
+	       	</LinearLayout>
+            <LinearLayout
+                style="@style/LoginFormContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+                <CheckBox android:id="@+id/register_client_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/client_caption"
+                    android:checked="true" />
+                <CheckBox android:id="@+id/register_translator_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/translator_caption"
+                    android:checked="false" />
+            </LinearLayout>
+	        <TextView
+		        android:id="@+id/registerDescrTextView"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/register_descr"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

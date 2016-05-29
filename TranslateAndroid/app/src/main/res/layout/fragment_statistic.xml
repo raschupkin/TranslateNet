@@ -1,0 +1,212 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.translatenet.StatisticFragment">
+    <RelativeLayout
+        android:id="@+id/ST_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <RelativeLayout
+            android:id="@+id/ST_PersonalLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ST_RatingLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rating"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <RatingBar
+                android:id="@+id/ST_RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/ST_RatingLabelTextView"
+                android:layout_marginLeft="@dimen/margin_colon"
+                android:isIndicator="true"
+                android:rating="0"
+                android:stepSize="0.5"
+                style="@android:style/Widget.Holo.Light.RatingBar.Indicator"/>
+            <TextView
+                android:id="@+id/ST_RatingNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ST_RatingLabelTextView"
+                android:layout_toRightOf="@id/ST_RatingBar"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/margin_colon"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_RatingTopLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ST_RatingLabelTextView"
+                android:text="@string/rating_top"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_RatingTopTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ST_RatingTopLabelTextView"
+                android:layout_toRightOf="@id/ST_RatingTopLabelTextView"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/margin_colon"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_BalanceLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ST_RatingTopLabelTextView"
+                android:text="@string/balance"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_BalanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ST_BalanceLabelTextView"
+                android:layout_toRightOf="@id/ST_BalanceLabelTextView"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/margin_colon"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_MoneySumLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ST_BalanceLabelTextView"
+                android:text="@string/money_sum"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_MoneySumTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ST_MoneySumLabelTextView"
+                android:layout_toRightOf="@id/ST_MoneySumLabelTextView"
+                android:text="@string/default_value"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_CallNumLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ST_MoneySumLabelTextView"
+                android:text="@string/call_num"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_CallNumTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ST_CallNumLabelTextView"
+                android:layout_toRightOf="@id/ST_CallNumLabelTextView"
+                android:layout_marginLeft="@dimen/margin_colon"
+                android:text="@string/default_value"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_CallTimeSumLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ST_CallNumLabelTextView"
+                android:text="@string/call_time_sum"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/ST_CallTimeSumTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ST_CallTimeSumLabelTextView"
+                android:layout_toRightOf="@id/ST_CallTimeSumLabelTextView"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/margin_colon"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/ST_TranslatorsLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/abc_dropdownitem_icon_width"
+            android:layout_below="@id/ST_PersonalLayout"
+            android:layout_alignParentLeft="true"
+            android:text="@string/online_translators"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_TranslatorsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ST_TranslatorsLabelTextView"
+            android:layout_toRightOf="@id/ST_TranslatorsLabelTextView"
+            android:layout_marginLeft="@dimen/abc_action_bar_default_padding_material"
+            android:text="@string/default_value"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    |    <TextView
+            android:id="@+id/ST_DescrTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/ST_TranslatorsLabelTextView"
+            android:text="@string/act_statistics"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_HourLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ST_DescrTextView"
+            android:layout_toRightOf="@id/ST_DescrTextView"
+            android:layout_marginLeft="@dimen/abc_dropdownitem_icon_width"
+            android:text="@string/hour"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_DayLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ST_DescrTextView"
+            android:layout_toRightOf="@id/ST_HourLabelTextView"
+            android:layout_marginLeft="@dimen/abc_dropdownitem_icon_width"
+            android:text="@string/day"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_UsersLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ST_DescrTextView"
+            android:layout_alignRight="@id/ST_DescrTextView"
+             android:text="@string/clients"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_UsersHourTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ST_UsersLabelTextView"
+            android:layout_alignLeft="@id/ST_HourLabelTextView"
+            android:text="@string/default_value"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_UsersDayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ST_UsersLabelTextView"
+            android:layout_alignLeft="@id/ST_DayLabelTextView"
+            android:text="@string/default_value"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_CallsLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ST_UsersLabelTextView"
+            android:layout_alignRight="@id/ST_UsersLabelTextView"
+            android:layout_marginLeft="20dp"
+            android:text="@string/calls"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_CallsHourTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ST_CallsLabelTextView"
+            android:layout_alignLeft="@id/ST_HourLabelTextView"
+            android:text="@string/default_value"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/ST_CallsDayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ST_CallsLabelTextView"
+            android:layout_alignLeft="@id/ST_DayLabelTextView"
+            android:text="@string/default_value"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+</FrameLayout>

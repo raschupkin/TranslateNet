@@ -1,0 +1,253 @@
+<countries>
+	<country><code>--</code><name>Unknown</name><lang>en</lang>en<langs>en</langs><iso3>uuu</iso3></country>
+	<country><code>ad</code><name>Andorra</name><lang>ca</lang><langs>ca</langs><iso3>and</iso3></country>
+	<country><code>ae</code><name>United Arab Emirates</name><lang>ar</lang><langs>ar-AE,fa,en,hi,ur</langs><iso3>are</iso3></country>
+	<country><code>af</code><name>Afghanistan</name><lang>fa</lang><langs>fa-AF,ps,uz-AF,tk</langs><iso3>afg</iso3></country>
+	<country><code>ag</code><name>Antigua and Barbuda</name><lang>en</lang><langs>en-AG</langs><iso3>atg</iso3></country>
+	<country><code>ai</code><name>Anguilla</name><lang>en</lang><langs>en-AI</langs><iso3>aia</iso3></country>
+	<country><code>al</code><name>Albania</name><lang>sq</lang><langs>sq,el</langs><iso3>alb</iso3></country>
+	<country><code>am</code><name>Armenia</name><lang>hy</lang><langs>hy</langs><iso3>arm</iso3></country>
+	<country><code>ao</code><name>Angola</name><lang>pt</lang><langs>pt-AO</langs><iso3>ago</iso3></country>
+	<country><code>aq</code><name>Antarctica</name><lang>eng</lang><langs></langs><iso3>ata</iso3></country>
+	<country><code>ar</code><name>Argentina</name><lang>es</lang><langs>es-AR,en,it,de,fr,gn</langs><iso3>arg</iso3></country>
+	<country><code>as</code><name>American Samoa</name><lang>en</lang><langs>en-AS,sm,to</langs><iso3>asm</iso3></country>
+	<country><code>at</code><name>Austria</name><lang>de</lang><langs>de-AT,hr,hu,sl</langs><iso3>aut</iso3></country>
+	<country><code>au</code><name>Australia</name><lang>en</lang><langs>en-AU</langs><iso3>aus</iso3></country>
+	<country><code>aw</code><name>Aruba</name><lang>nl</lang><langs>nl-AW,es,en</langs><iso3>abw</iso3></country>
+	<country><code>ax</code><name>Åland</name><lang>sv</lang><langs>sv-AX</langs><iso3>ala</iso3></country>
+	<country><code>az</code><name>Azerbaijan</name><lang>az</lang><langs>az,ru,hy</langs><iso3>aze</iso3></country>
+	<country><code>ba</code><name>Bosnia and Herzegovina</name><lang>bs</lang><langs>bs,hr-BA,sr-BA</langs><iso3>bih</iso3></country>
+	<country><code>bb</code><name>Barbados</name><lang>en</lang><langs>en-BB</langs><iso3>brb</iso3></country>
+	<country><code>bd</code><name>Bangladesh</name><lang>bn</lang><langs>bn-BD,en</langs><iso3>bgd</iso3></country>
+	<country><code>be</code><name>Belgium</name><lang>nl</lang><langs>nl-BE,fr-BE,de-BE</langs><iso3>bel</iso3></country>
+	<country><code>bf</code><name>Burkina Faso</name><lang>fr</lang><langs>fr-BF</langs><iso3>bfa</iso3></country>
+	<country><code>bg</code><name>Bulgaria</name><lang>bg</lang><langs>bg,tr-BG</langs><iso3>bgr</iso3></country>
+	<country><code>bh</code><name>Bahrain</name><lang>ar</lang><langs>ar-BH,en,fa,ur</langs><iso3>bhr</iso3></country>
+	<country><code>bi</code><name>Burundi</name><lang>fr</lang><langs>fr-BI,rn</langs><iso3>bdi</iso3></country>
+	<country><code>bj</code><name>Benin</name><lang>fr</lang><langs>fr-BJ</langs><iso3>ben</iso3></country>
+	<country><code>bl</code><name>Saint Barthélemy</name><lang>fr</lang><langs>fr</langs><iso3>blm</iso3></country>
+	<country><code>bm</code><name>Bermuda</name><lang>en</lang><langs>en-BM,pt</langs><iso3>bmu</iso3></country>
+	<country><code>bn</code><name>Brunei</name><lang>ms</lang><langs>ms-BN,en-BN</langs><iso3>brn</iso3></country>
+	<country><code>bo</code><name>Bolivia</name><lang>es</lang><langs>es-BO,qu,ay</langs><iso3>bol</iso3></country>
+	<country><code>bq</code><name>Bonaire</name><lang>nl</lang><langs>nl,pap,en</langs><iso3>bes</iso3></country>
+	<country><code>br</code><name>Brazil</name><lang>pt</lang><langs>pt-BR,es,en,fr</langs><iso3>bra</iso3></country>
+	<country><code>bs</code><name>Bahamas</name><lang>en</lang><langs>en-BS</langs><iso3>bhs</iso3></country>
+	<country><code>bt</code><name>Bhutan</name><lang>dz</lang><langs>dz</langs><iso3>btn</iso3></country>
+	<country><code>bv</code><name>Bouvet Island</name><lang>en</lang><langs></langs><iso3>bvt</iso3></country>
+	<country><code>bw</code><name>Botswana</name><lang>en</lang><langs>en-BW,tn-BW</langs><iso3>bwa</iso3></country>
+	<country><code>by</code><name>Belarus</name><lang>be</lang><langs>be,ru</langs><iso3>blr</iso3></country>
+	<country><code>bz</code><name>Belize</name><lang>en</lang><langs>en-BZ,es</langs><iso3>blz</iso3></country>
+	<country><code>ca</code><name>Canada</name><lang>en</lang><langs>en-CA,fr-CA,iu</langs><iso3>can</iso3></country>
+	<country><code>cc</code><name>Cocos [Keeling] Islands</name><lang>ms</lang><langs>ms-CC,en</langs><iso3>cck</iso3></country>
+	<country><code>cd</code><name>Democratic Republic of the Congo</name><lang>fr</lang><langs>fr-CD,ln,kg</langs><iso3>cod</iso3></country>
+	<country><code>cf</code><name>Central African Republic</name><lang>fr</lang><langs>fr-CF,sg,ln,kg</langs><iso3>caf</iso3></country>
+	<country><code>cg</code><name>Republic of the Congo</name><lang>fr</lang><langs>fr-CG,kg,ln-CG</langs><iso3>cog</iso3></country>
+	<country><code>ch</code><name>Switzerland</name><lang>de</lang><langs>de-CH,fr-CH,it-CH,rm</langs><iso3>che</iso3></country>
+	<country><code>ci</code><name>Ivory Coast</name><lang>fr</lang><langs>fr-CI</langs><iso3>civ</iso3></country>
+	<country><code>ck</code><name>Cook Islands</name><lang>en</lang><langs>en-CK,mi</langs><iso3>cok</iso3></country>
+	<country><code>cl</code><name>Chile</name><lang>es</lang><langs>es-CL</langs><iso3>chl</iso3></country>
+	<country><code>cm</code><name>Cameroon</name><lang>en</lang><langs>en-CM,fr-CM</langs><iso3>cmr</iso3></country>
+	<country><code>cn</code><name>China</name><lang>zh</lang><langs>zh-CN,yue,wuu,dta,ug,za</langs><iso3>chn</iso3></country>
+	<country><code>co</code><name>Colombia</name><lang>es</lang><langs>es-CO</langs><iso3>col</iso3></country>
+	<country><code>cr</code><name>Costa Rica</name><lang>es</lang><langs>es-CR,en</langs><iso3>cri</iso3></country>
+	<country><code>cu</code><name>Cuba</name><lang>es</lang><langs>es-CU</langs><iso3>cub</iso3></country>
+	<country><code>cv</code><name>Cape Verde</name><lang>pt</lang><langs>pt-CV</langs><iso3>cpv</iso3></country>
+	<country><code>cw</code><name>Curacao</name><lang>nl</lang><langs>nl,pap</langs><iso3>cuw</iso3></country>
+	<country><code>cx</code><name>Christmas Island</name><lang>en</lang><langs>en,zh,ms-CC</langs><iso3>cxr</iso3></country>
+	<country><code>cy</code><name>Cyprus</name><lang>el</lang><langs>el-CY,tr-CY,en</langs><iso3>cyp</iso3></country>
+	<country><code>cz</code><name>Czechia</name><lang>cs</lang><langs>cs,sk</langs><iso3>cze</iso3></country>
+	<country><code>de</code><name>Germany</name><lang>de</lang><langs>de</langs><iso3>deu</iso3></country>
+	<country><code>dj</code><name>Djibouti</name><lang>fr</lang><langs>fr-DJ,ar,so-DJ,aa</langs><iso3>dji</iso3></country>
+	<country><code>dk</code><name>Denmark</name><lang>da</lang><langs>da-DK,en,fo,de-DK</langs><iso3>dnk</iso3></country>
+	<country><code>dm</code><name>Dominica</name><lang>en</lang><langs>en-DM</langs><iso3>dma</iso3></country>
+	<country><code>do</code><name>Dominican Republic</name><lang>es</lang><langs>es-DO</langs><iso3>dom</iso3></country>
+	<country><code>dz</code><name>Algeria</name><lang>ar</lang><langs>ar-DZ</langs><iso3>dza</iso3></country>
+	<country><code>ec</code><name>Ecuador</name><lang>es</lang><langs>es-EC</langs><iso3>ecu</iso3></country>
+	<country><code>ee</code><name>Estonia</name><lang>et</lang><langs>et,ru</langs><iso3>est</iso3></country>
+	<country><code>eg</code><name>Egypt</name><lang>ar</lang><langs>ar-EG,en,fr</langs><iso3>egy</iso3></country>
+	<country><code>eh</code><name>Western Sahara</name><lang>ar</lang><langs>ar,mey</langs><iso3>esh</iso3></country>
+	<country><code>er</code><name>Eritrea</name><lang>aa</lang><langs>aa-ER,ar,tig,kun,ti-ER</langs><iso3>eri</iso3></country>
+	<country><code>es</code><name>Spain</name><lang>es</lang><langs>es-ES,ca,gl,eu,oc</langs><iso3>esp</iso3></country>
+	<country><code>et</code><name>Ethiopia</name><lang>am</lang><langs>am,en-ET,om-ET,ti-ET,so-ET,sid</langs><iso3>eth</iso3></country>
+	<country><code>fi</code><name>Finland</name><lang>fi</lang><langs>fi-FI,sv-FI,smn</langs><iso3>fin</iso3></country>
+	<country><code>fj</code><name>Fiji</name><lang>en</lang><langs>en-FJ,fj</langs><iso3>fji</iso3></country>
+	<country><code>fk</code><name>Falkland Islands</name><lang>en</lang><langs>en-FK</langs><iso3>flk</iso3></country>
+	<country><code>fm</code><name>Micronesia</name><lang>en</lang><langs>en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg</langs><iso3>fsm</iso3></country>
+	<country><code>fo</code><name>Faroe Islands</name><lang>fo</lang><langs>fo,da-FO</langs><iso3>fro</iso3></country>
+	<country><code>fr</code><name>France</name><lang>fr</lang><langs>fr-FR,frp,br,co,ca,eu,oc</langs><iso3>fra</iso3></country>
+	<country><code>ga</code><name>Gabon</name><lang>fr</lang><langs>fr-GA</langs><iso3>gab</iso3></country>
+	<country><code>gb</code><name>United Kingdom</name><lang>en</lang><langs>en-GB,cy-GB,gd</langs><iso3>gbr</iso3></country>
+	<country><code>gd</code><name>Grenada</name><lang>en</lang><langs>en-GD</langs><iso3>grd</iso3></country>
+	<country><code>ge</code><name>Georgia</name><lang>ka</lang><langs>ka,ru,hy,az</langs><iso3>geo</iso3></country>
+	<country><code>gf</code><name>French Guiana</name><lang>fr</lang><langs>fr-GF</langs><iso3>guf</iso3></country>
+	<country><code>gg</code><name>Guernsey</name><lang>en</lang><langs>en,fr</langs><iso3>ggy</iso3></country>
+	<country><code>gh</code><name>Ghana</name><lang>en</lang><langs>en-GH,ak,ee,tw</langs><iso3>gha</iso3></country>
+	<country><code>gi</code><name>Gibraltar</name><lang>en</lang><langs>en-GI,es,it,pt</langs><iso3>gib</iso3></country>
+	<country><code>gl</code><name>Greenland</name><lang>kl</lang><langs>kl,da-GL,en</langs><iso3>grl</iso3></country>
+	<country><code>gm</code><name>Gambia</name><lang>en</lang><langs>en-GM,mnk,wof,wo,ff</langs><iso3>gmb</iso3></country>
+	<country><code>gn</code><name>Guinea</name><lang>fr</lang><langs>fr-GN</langs><iso3>gin</iso3></country>
+	<country><code>gp</code><name>Guadeloupe</name><lang>fr</lang><langs>fr-GP</langs><iso3>glp</iso3></country>
+	<country><code>gq</code><name>Equatorial Guinea</name><lang>es</lang><langs>es-GQ,fr</langs><iso3>gnq</iso3></country>
+	<country><code>gr</code><name>Greece</name><lang>el</lang><langs>el-GR,en,fr</langs><iso3>grc</iso3></country>
+	<country><code>gs</code><name>South Georgia and the South Sandwich Islands</name><lang>en</lang><langs>en</langs><iso3>sgs</iso3></country>
+	<country><code>gt</code><name>Guatemala</name><lang>es</lang><langs>es-GT</langs><iso3>gtm</iso3></country>
+	<country><code>gu</code><name>Guam</name><lang>en</lang><langs>en-GU,ch-GU</langs><iso3>gum</iso3></country>
+	<country><code>gw</code><name>Guinea-Bissau</name><lang>pt</lang><langs>pt-GW,pov</langs><iso3>gnb</iso3></country>
+	<country><code>gy</code><name>Guyana</name><lang>en</lang><langs>en-GY</langs><iso3>guy</iso3></country>
+	<country><code>hk</code><name>Hong Kong</name><lang>zh</lang><langs>zh-HK,yue,zh,en</langs><iso3>hkg</iso3></country>
+	<country><code>hm</code><name>Heard Island and McDonald Islands</name><lang>en</lang><langs></langs><iso3>hmd</iso3></country>
+	<country><code>hn</code><name>Honduras</name><lang>es</lang><langs>es-HN</langs><iso3>hnd</iso3></country>
+	<country><code>hr</code><name>Croatia</name><lang>hr</lang><langs>hr-HR,sr</langs><iso3>hrv</iso3></country>
+	<country><code>ht</code><name>Haiti</name><lang>ht</lang><langs>ht,fr-HT</langs><iso3>hti</iso3></country>
+	<country><code>hu</code><name>Hungary</name><lang>hu</lang><langs>hu-HU</langs><iso3>hun</iso3></country>
+	<country><code>id</code><name>Indonesia</name><lang>id</lang><langs>id,en,nl,jv</langs><iso3>idn</iso3></country>
+	<country><code>ie</code><name>Ireland</name><lang>en</lang><langs>en-IE,ga-IE</langs><iso3>irl</iso3></country>
+	<country><code>il</code><name>Israel</name><lang>he</lang><langs>he,ar-IL,en-IL,</langs><iso3>isr</iso3></country>
+	<country><code>im</code><name>Isle of Man</name><lang>en</lang><langs>en,gv</langs><iso3>imn</iso3></country>
+	<country><code>in</code><name>India</name><lang>en</lang><langs>en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc</langs><iso3>ind</iso3></country>
+	<country><code>io</code><name>British Indian Ocean Territory</name><lang>en</lang><langs>en-IO</langs><iso3>iot</iso3></country>
+	<country><code>iq</code><name>Iraq</name><lang>ar</lang><langs>ar-IQ,ku,hy</langs><iso3>irq</iso3></country>
+	<country><code>ir</code><name>Iran</name><lang>fa</lang><langs>fa-IR,ku</langs><iso3>irn</iso3></country>
+	<country><code>is</code><name>Iceland</name><lang>is</lang><langs>is,en,de,da,sv,no</langs><iso3>isl</iso3></country>
+	<country><code>it</code><name>Italy</name><lang>it</lang><langs>it-IT,de-IT,fr-IT,sc,ca,co,sl</langs><iso3>ita</iso3></country>
+	<country><code>je</code><name>Jersey</name><lang>en</lang><langs>en,pt</langs><iso3>jey</iso3></country>
+	<country><code>jm</code><name>Jamaica</name><lang>en</lang><langs>en-JM</langs><iso3>jam</iso3></country>
+	<country><code>jo</code><name>Jordan</name><lang>ar</lang><langs>ar-JO,en</langs><iso3>jor</iso3></country>
+	<country><code>jp</code><name>Japan</name><lang>ja</lang><langs>ja</langs><iso3>jpn</iso3></country>
+	<country><code>ke</code><name>Kenya</name><lang>en</lang><langs>en-KE,sw-KE</langs><iso3>ken</iso3></country>
+	<country><code>kg</code><name>Kyrgyzstan</name><lang>ky</lang><langs>ky,uz,ru</langs><iso3>kgz</iso3></country>
+	<country><code>kh</code><name>Cambodia</name><lang>km</lang><langs>km,fr,en</langs><iso3>khm</iso3></country>
+	<country><code>ki</code><name>Kiribati</name><lang>en</lang><langs>en-KI,gil</langs><iso3>kir</iso3></country>
+	<country><code>km</code><name>Comoros</name><lang>ar</lang><langs>ar,fr-KM</langs><iso3>com</iso3></country>
+	<country><code>kn</code><name>Saint Kitts and Nevis</name><lang>en</lang><langs>en-KN</langs><iso3>kna</iso3></country>
+	<country><code>kp</code><name>North Korea</name><lang>ko</lang><langs>ko-KP</langs><iso3>prk</iso3></country>
+	<country><code>kr</code><name>South Korea</name><lang>ko</lang><langs>ko-KR,en</langs><iso3>kor</iso3></country>
+	<country><code>kw</code><name>Kuwait</name><lang>ar</lang><langs>ar-KW,en</langs><iso3>kwt</iso3></country>
+	<country><code>ky</code><name>Cayman Islands</name><lang>en</lang><langs>en-KY</langs><iso3>cym</iso3></country>
+	<country><code>kz</code><name>Kazakhstan</name><lang>kk</lang><langs>kk,ru</langs><iso3>kaz</iso3></country>
+	<country><code>la</code><name>Laos</name><lang>lo</lang><langs>lo,fr,en</langs><iso3>lao</iso3></country>
+	<country><code>lb</code><name>Lebanon</name><lang>ar</lang><langs>ar-LB,fr-LB,en,hy</langs><iso3>lbn</iso3></country>
+	<country><code>lc</code><name>Saint Lucia</name><lang>en</lang><langs>en-LC</langs><iso3>lca</iso3></country>
+	<country><code>li</code><name>Liechtenstein</name><lang>de</lang><langs>de-LI</langs><iso3>lie</iso3></country>
+	<country><code>lk</code><name>Sri Lanka</name><lang>si</lang><langs>si,ta,en</langs><iso3>lka</iso3></country>
+	<country><code>lr</code><name>Liberia</name><lang>en</lang><langs>en-LR</langs><iso3>lbr</iso3></country>
+	<country><code>ls</code><name>Lesotho</name><lang>en</lang><langs>en-LS,st,zu,xh</langs><iso3>lso</iso3></country>
+	<country><code>lt</code><name>Lithuania</name><lang>lt</lang><langs>lt,ru,pl</langs><iso3>ltu</iso3></country>
+	<country><code>lu</code><name>Luxembourg</name><lang>lb</lang><langs>lb,de-LU,fr-LU</langs><iso3>lux</iso3></country>
+	<country><code>lv</code><name>Latvia</name><lang>lv</lang><langs>lv,ru,lt</langs><iso3>lva</iso3></country>
+	<country><code>ly</code><name>Libya</name><lang>ar</lang><langs>ar-LY,it,en</langs><iso3>lby</iso3></country>
+	<country><code>ma</code><name>Morocco</name><lang>ar</lang><langs>ar-MA,fr</langs><iso3>mar</iso3></country>
+	<country><code>mc</code><name>Monaco</name><lang>fr</lang><langs>fr-MC,en,it</langs><iso3>mco</iso3></country>
+	<country><code>md</code><name>Moldova</name><lang>ro</lang><langs>ro,ru,gag,tr</langs><iso3>mda</iso3></country>
+	<country><code>me</code><name>Montenegro</name><lang>sr</lang><langs>sr,hu,bs,sq,hr,rom</langs><iso3>mne</iso3></country>
+	<country><code>mf</code><name>Saint Martin</name><lang>fr</lang><langs>fr</langs><iso3>maf</iso3></country>
+	<country><code>mg</code><name>Madagascar</name><lang>fr</lang><langs>fr-MG,mg</langs><iso3>mdg</iso3></country>
+	<country><code>mh</code><name>Marshall Islands</name><lang>mh</lang><langs>mh,en-MH</langs><iso3>mhl</iso3></country>
+	<country><code>mk</code><name>Macedonia</name><lang>mk</lang><langs>mk,sq,tr,rmm,sr</langs><iso3>mkd</iso3></country>
+	<country><code>ml</code><name>Mali</name><lang>fr</lang><langs>fr-ML,bm</langs><iso3>mli</iso3></country>
+	<country><code>mm</code><name>Myanmar [Burma]</name><lang>my</lang><langs>my</langs><iso3>mmr</iso3></country>
+	<country><code>mn</code><name>Mongolia</name><lang>mn</lang><langs>mn,ru</langs><iso3>mng</iso3></country>
+	<country><code>mo</code><name>Macao</name><lang>zh</lang><langs>zh,zh-MO,pt</langs><iso3>mac</iso3></country>
+	<country><code>mp</code><name>Northern Mariana Islands</name><lang>fil</lang><langs>fil,tl,zh,ch-MP,en-MP</langs><iso3>mnp</iso3></country>
+	<country><code>mq</code><name>Martinique</name><lang>fr</lang><langs>fr-MQ</langs><iso3>mtq</iso3></country>
+	<country><code>mr</code><name>Mauritania</name><lang>ar</lang><langs>ar-MR,fuc,snk,fr,mey,wo</langs><iso3>mrt</iso3></country>
+	<country><code>ms</code><name>Montserrat</name><lang>en</lang><langs>en-MS</langs><iso3>msr</iso3></country>
+	<country><code>mt</code><name>Malta</name><lang>mt</lang><langs>mt,en-MT</langs><iso3>mlt</iso3></country>
+	<country><code>mu</code><name>Mauritius</name><lang>en</lang><langs>en-MU,bho,fr</langs><iso3>mus</iso3></country>
+	<country><code>mv</code><name>Maldives</name><lang>dv</lang><langs>dv,en</langs><iso3>mdv</iso3></country>
+	<country><code>mw</code><name>Malawi</name><lang>ny</lang><langs>ny,yao,tum,swk</langs><iso3>mwi</iso3></country>
+	<country><code>mx</code><name>Mexico</name><lang>es</lang><langs>es-MX</langs><iso3>mex</iso3></country>
+	<country><code>my</code><name>Malaysia</name><lang>ms</lang><langs>ms-MY,en,zh,ta,te,ml,pa,th</langs><iso3>mys</iso3></country>
+	<country><code>mz</code><name>Mozambique</name><lang>pt</lang><langs>pt-MZ,vmw</langs><iso3>moz</iso3></country>
+	<country><code>na</code><name>Namibia</name><lang>en</lang><langs>en-NA,af,de,hz,naq</langs><iso3>nam</iso3></country>
+	<country><code>nc</code><name>New Caledonia</name><lang>fr</lang><langs>fr-NC</langs><iso3>ncl</iso3></country>
+	<country><code>ne</code><name>Niger</name><lang>fr</lang><langs>fr-NE,ha,kr,dje</langs><iso3>ner</iso3></country>
+	<country><code>nf</code><name>Norfolk Island</name><lang>en</lang><langs>en-NF</langs><iso3>nfk</iso3></country>
+	<country><code>ng</code><name>Nigeria</name><lang>en</lang><langs>en-NG,ha,yo,ig,ff</langs><iso3>nga</iso3></country>
+	<country><code>ni</code><name>Nicaragua</name><lang>es</lang><langs>es-NI,en</langs><iso3>nic</iso3></country>
+	<country><code>nl</code><name>Netherlands</name><lang>nl</lang><langs>nl-NL,fy-NL</langs><iso3>nld</iso3></country>
+	<country><code>no</code><name>Norway</name><lang>no</lang><langs>no,nb,nn,se,fi</langs><iso3>nor</iso3></country>
+	<country><code>np</code><name>Nepal</name><lang>ne</lang><langs>ne,en</langs><iso3>npl</iso3></country>
+	<country><code>nr</code><name>Nauru</name><lang>na</lang><langs>na,en-NR</langs><iso3>nru</iso3></country>
+	<country><code>nu</code><name>Niue</name><lang>niu</lang><langs>niu,en-NU</langs><iso3>niu</iso3></country>
+	<country><code>nz</code><name>New Zealand</name><lang>en</lang><langs>en-NZ,mi</langs><iso3>nzl</iso3></country>
+	<country><code>om</code><name>Oman</name><lang>ar</lang><langs>ar-OM,en,bal,ur</langs><iso3>omn</iso3></country>
+	<country><code>pa</code><name>Panama</name><lang>es</lang><langs>es-PA,en</langs><iso3>pan</iso3></country>
+	<country><code>pe</code><name>Peru</name><lang>es</lang><langs>es-PE,qu,ay</langs><iso3>per</iso3></country>
+	<country><code>pf</code><name>French Polynesia</name><lang>fr</lang><langs>fr-PF,ty</langs><iso3>pyf</iso3></country>
+	<country><code>pg</code><name>Papua New Guinea</name><lang>en</lang><langs>en-PG,ho,meu,tpi</langs><iso3>png</iso3></country>
+	<country><code>ph</code><name>Philippines</name><lang>fil</lang><langs>tl,en-PH,fil</langs><iso3>phl</iso3></country>
+	<country><code>pk</code><name>Pakistan</name><lang>ur</lang><langs>ur-PK,en-PK,pa,sd,ps,brh</langs><iso3>pak</iso3></country>
+	<country><code>pl</code><name>Poland</name><lang>pl</lang><langs>pl</langs><iso3>pol</iso3></country>
+	<country><code>pm</code><name>Saint Pierre and Miquelon</name><lang>fr</lang><langs>fr-PM</langs><iso3>spm</iso3></country>
+	<country><code>pn</code><name>Pitcairn Islands</name><lang>en</lang><langs>en-PN</langs><iso3>pcn</iso3></country>
+	<country><code>pr</code><name>Puerto Rico</name><lang>en</lang><langs>en-PR,es-PR</langs><iso3>pri</iso3></country>
+	<country><code>ps</code><name>Palestine</name><lang>ar</lang><langs>ar-PS</langs><iso3>pse</iso3></country>
+	<country><code>pt</code><name>Portugal</name><lang>pt</lang><langs>pt-PT,mwl</langs><iso3>prt</iso3></country>
+	<country><code>pw</code><name>Palau</name><lang>pau</lang><langs>pau,sov,en-PW,tox,ja,fil,zh</langs><iso3>plw</iso3></country>
+	<country><code>py</code><name>Paraguay</name><lang>es</lang><langs>es-PY,gn</langs><iso3>pry</iso3></country>
+	<country><code>qa</code><name>Qatar</name><lang>ar</lang><langs>ar-QA,es</langs><iso3>qat</iso3></country>
+	<country><code>re</code><name>Réunion</name><lang>fr</lang><langs>fr-RE</langs><iso3>reu</iso3></country>
+	<country><code>ro</code><name>Romania</name><lang>ro</lang><langs>ro,hu,rom</langs><iso3>rou</iso3></country>
+	<country><code>rs</code><name>Serbia</name><lang>sr</lang><langs>sr,hu,bs,rom</langs><iso3>srb</iso3></country>
+	<country><code>ru</code><name>Russia</name><lang>ru</lang><langs>ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog</langs><iso3>rus</iso3></country>
+	<country><code>rw</code><name>Rwanda</name><lang>rw</lang><langs>rw,en-RW,fr-RW,sw</langs><iso3>rwa</iso3></country>
+	<country><code>sa</code><name>Saudi Arabia</name><lang>ar</lang><langs>ar-SA</langs><iso3>sau</iso3></country>
+	<country><code>sb</code><name>Solomon Islands</name><lang>en</lang><langs>en-SB,tpi</langs><iso3>slb</iso3></country>
+	<country><code>sc</code><name>Seychelles</name><lang>en</lang><langs>en-SC,fr-SC</langs><iso3>syc</iso3></country>
+	<country><code>sd</code><name>Sudan</name><lang>ar</lang><langs>ar-SD,en,fia</langs><iso3>sdn</iso3></country>
+	<country><code>se</code><name>Sweden</name><lang>sv</lang><langs>sv-SE,se,sma,fi-SE</langs><iso3>swe</iso3></country>
+	<country><code>sg</code><name>Singapore</name><lang>cmn</lang><langs>cmn,en-SG,ms-SG,ta-SG,zh-SG</langs><iso3>sgp</iso3></country>
+	<country><code>sh</code><name>Saint Helena</name><lang>en</lang><langs>en-SH</langs><iso3>shn</iso3></country>
+	<country><code>si</code><name>Slovenia</name><lang>sl</lang><langs>sl,sh</langs><iso3>svn</iso3></country>
+	<country><code>sj</code><name>Svalbard and Jan Mayen</name><lang>no</lang><langs>no,ru</langs><iso3>sjm</iso3></country>
+	<country><code>sk</code><name>Slovakia</name><lang>sk</lang><langs>sk,hu</langs><iso3>svk</iso3></country>
+	<country><code>sl</code><name>Sierra Leone</name><lang>en</lang><langs>en-SL,men,tem</langs><iso3>sle</iso3></country>
+	<country><code>sm</code><name>San Marino</name><lang>it</lang><langs>it-SM</langs><iso3>smr</iso3></country>
+	<country><code>sn</code><name>Senegal</name><lang>fr</lang><langs>fr-SN,wo,fuc,mnk</langs><iso3>sen</iso3></country>
+	<country><code>so</code><name>Somalia</name><lang>so</lang><langs>so-SO,ar-SO,it,en-SO</langs><iso3>som</iso3></country>
+	<country><code>sr</code><name>Suriname</name><lang>nl</lang><langs>nl-SR,en,srn,hns,jv</langs><iso3>sur</iso3></country>
+	<country><code>ss</code><name>South Sudan</name><lang>en</lang><langs>en</langs><iso3>ssd</iso3></country>
+	<country><code>st</code><name>São Tomé and Príncipe</name><lang>pt</lang><langs>pt-ST</langs><iso3>stp</iso3></country>
+	<country><code>sv</code><name>El Salvador</name><lang>es</lang><langs>es-SV</langs><iso3>slv</iso3></country>
+	<country><code>sx</code><name>Sint Maarten</name><lang>nl</lang><langs>nl,en</langs><iso3>sxm</iso3></country>
+	<country><code>sy</code><name>Syria</name><lang>ar</lang><langs>ar-SY,ku,hy,arc,fr,en</langs><iso3>syr</iso3></country>
+	<country><code>sz</code><name>Swaziland</name><lang>en</lang><langs>en-SZ,ss-SZ</langs><iso3>swz</iso3></country>
+	<country><code>tc</code><name>Turks and Caicos Islands</name><lang>en</lang><langs>en-TC</langs><iso3>tca</iso3></country>
+	<country><code>td</code><name>Chad</name><lang>fr</lang><langs>fr-TD,ar-TD,sre</langs><iso3>tcd</iso3></country>
+	<country><code>tf</code><name>French Southern Territories</name><lang>fr</lang><langs>fr</langs><iso3>atf</iso3></country>
+	<country><code>tg</code><name>Togo</name><lang>fr</lang><langs>fr-TG,ee,hna,kbp,dag,ha</langs><iso3>tgo</iso3></country>
+	<country><code>th</code><name>Thailand</name><lang>th</lang><langs>th,en</langs><iso3>tha</iso3></country>
+	<country><code>tj</code><name>Tajikistan</name><lang>tg</lang><langs>tg,ru</langs><iso3>tjk</iso3></country>
+	<country><code>tk</code><name>Tokelau</name><lang>tkl</lang><langs>tkl,en-TK</langs><iso3>tkl</iso3></country>
+	<country><code>tl</code><name>East Timor</name><lang>tet</lang><langs>tet,pt-TL,id,en</langs><iso3>tls</iso3></country>
+	<country><code>tm</code><name>Turkmenistan</name><lang>tk</lang><langs>tk,ru,uz</langs><iso3>tkm</iso3></country>
+	<country><code>tn</code><name>Tunisia</name><lang>ar</lang><langs>ar-TN,fr</langs><iso3>tun</iso3></country>
+	<country><code>to</code><name>Tonga</name><lang>to</lang><langs>to,en-TO</langs><iso3>ton</iso3></country>
+	<country><code>tr</code><name>Turkey</name><lang>tr</lang><langs>tr-TR,ku,diq,az,av</langs><iso3>tur</iso3></country>
+	<country><code>tt</code><name>Trinidad and Tobago</name><lang>en</lang><langs>en-TT,hns,fr,es,zh</langs><iso3>tto</iso3></country>
+	<country><code>tv</code><name>Tuvalu</name><lang>tvl</lang><langs>tvl,en,sm,gil</langs><iso3>tuv</iso3></country>
+	<country><code>tw</code><name>Taiwan</name><lang>zh</lang><langs>zh-TW,zh,nan,hak</langs><iso3>twn</iso3></country>
+	<country><code>tz</code><name>Tanzania</name><lang>sw</lang><langs>sw-TZ,en,ar</langs><iso3>tza</iso3></country>
+	<country><code>ua</code><name>Ukraine</name><lang>uk</lang><langs>uk,ru-UA,rom,pl,hu</langs><iso3>ukr</iso3></country>
+	<country><code>ug</code><name>Uganda</name><lang>en</lang><langs>en-UG,lg,sw,ar</langs><iso3>uga</iso3></country>
+	<country><code>um</code><name>U.S. Minor Outlying Islands</name><lang>en</lang><langs>en-UM</langs><iso3>umi</iso3></country>
+	<country><code>us</code><name>United States</name><lang>en</lang><langs>en-US,es-US,haw,fr</langs><iso3>usa</iso3></country>
+	<country><code>uy</code><name>Uruguay</name><lang>es</lang><langs>es-UY</langs><iso3>ury</iso3></country>
+	<country><code>uz</code><name>Uzbekistan</name><lang>uz</lang><langs>uz,ru,tg</langs><iso3>uzb</iso3></country>
+	<country><code>va</code><name>Vatican City</name><lang>la</lang><langs>la,it,fr</langs><iso3>vat</iso3></country>
+	<country><code>vc</code><name>Saint Vincent and the Grenadines</name><lang>en</lang><langs>en-VC,fr</langs><iso3>vct</iso3></country>
+	<country><code>ve</code><name>Venezuela</name><lang>es</lang><langs>es-VE</langs><iso3>ven</iso3></country>
+	<country><code>vg</code><name>British Virgin Islands</name><lang>en</lang><langs>en-VG</langs><iso3>vgb</iso3></country>
+	<country><code>vi</code><name>U.S. Virgin Islands</name><lang>en</lang><langs>en-VI</langs><iso3>vir</iso3></country>
+	<country><code>vn</code><name>Vietnam</name><lang>vi</lang><langs>vi,en,fr,zh,km</langs><iso3>vnm</iso3></country>
+	<country><code>vu</code><name>Vanuatu</name><lang>bi</lang><langs>bi,en-VU,fr-VU</langs><iso3>vut</iso3></country>
+	<country><code>wf</code><name>Wallis and Futuna</name><lang>wls</lang><langs>wls,fud,fr-WF</langs><iso3>wlf</iso3></country>
+	<country><code>ws</code><name>Samoa</name><lang>sm</lang><langs>sm,en-WS</langs><iso3>wsm</iso3></country>
+	<country><code>xk</code><name>Kosovo</name><lang>sq</lang><langs>sq,sr</langs><iso3>xkx</iso3></country>
+	<country><code>ye</code><name>Yemen</name><lang>ar</lang><langs>ar-YE</langs><iso3>yem</iso3></country>
+	<country><code>yt</code><name>Mayotte</name><lang>fr</lang><langs>fr-YT</langs><iso3>myt</iso3></country>
+	<country><code>za</code><name>South Africa</name><lang>zu</lang><langs>zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr</langs><iso3>zaf</iso3></country>
+	<country><code>zm</code><name>Zambia</name><lang>en</lang><langs>en-ZM,bem,loz,lun,lue,ny,toi</langs><iso3>zmb</iso3></country>
+	<country><code>zw</code><name>Zimbabwe</name><lang>en</lang><langs>en-ZW,sn,nr,nd</langs><iso3>zwe</iso3></country>
+</countries>

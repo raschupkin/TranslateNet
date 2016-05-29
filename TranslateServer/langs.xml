@@ -1,0 +1,113 @@
+<languages>
+<version>1</version>
+<lang><code>en</code><iso3>eng</iso3><name>English</name><country></country><native>English</native></lang>
+<lang><code>fr</code><iso3>fre</iso3><name>French</name><country></country><native>Français</native></lang>
+<lang><code>es</code><iso3>spa</iso3><name>Spanish</name><country></country><native>Español</native></lang>
+<group code="europe" name="Europe">
+	<lang><code>be</code><iso3>bel</iso3><name>Belarusian</name><country>Belarus</country><native>Беларусы</native></lang>
+	<lang><code>bg</code><iso3>bul</iso3><name>Bulgarian</name><country>Bulgaria</country><native>Български</native></lang>
+	<lang><code>ca</code><iso3>cat</iso3><name>Catalan</name><country>Andorra</country><native>Català</native></lang>
+	<lang><code>hr</code><iso3>hrv</iso3><name>Croatian</name><country>Croatia</country><native>Hrvatski</native></lang>
+	<lang><code>cs</code><iso3>ces</iso3><name>Czech</name><country>Czechia</country><native>Čeština</native></lang>
+	<lang><code>da</code><iso3>dan</iso3><name>Danish</name><country>Denmark</country><native>Dansk</native></lang>
+	<lang><code>nl</code><iso3>dut</iso3><name>Dutch</name><country>Netherlands</country><native>Nederlands</native></lang>
+	<lang><code>en</code><iso3>eng</iso3><name>English</name><country></country><native>English</native></lang>
+	<lang><code>es</code><iso3>spa</iso3><name>Spanish</name><country></country><native>Español</native></lang>
+	<lang><code>et</code><iso3>est</iso3><name>Estonian</name><country>Estonia</country><native>Eesti</native></lang>
+	<lang><code>fi</code><iso3>fin</iso3><name>Finnish</name><country>Finland</country><native>Suomalainen</native></lang>
+	<lang><code>fr</code><iso3>fre</iso3><name>French</name><country>France</country><native>Français</native></lang>
+	<lang><code>de</code><iso3>ger</iso3><name>German</name><country>Germany</country><native>Deutsch</native></lang>
+	<lang><code>el</code><iso3>gre</iso3><name>Greek</name><country>Greece</country><native>ελληνικά</native></lang>
+	<lang><code>hu</code><iso3>hun</iso3><name>Hungarian</name><country>Hungary</country><native>Magyar</native></lang>
+	<lang><code>is</code><iso3>ice</iso3><name>Icelandic</name><country>Iceland</country><native>Icelandic</native></lang>
+	<lang><code>ga</code><iso3>gle</iso3><name>Irish</name><country>Ireland</country><native>Gaeilge</native></lang>
+	<lang><code>it</code><iso3>ita</iso3><name>Italian</name><country>Italy</country><native>Italiano</native></lang>
+	<lang><code>lv</code><iso3>lav</iso3><name>Latvian</name><country>Latvia</country><native>Latvijas</native></lang>
+	<lang><code>lt</code><iso3>lit</iso3><name>Lithuanian</name><country>Lithuania</country><native>Lithuanian</native></lang>
+	<lang><code>mk</code><iso3>mac</iso3><name>Macedonian</name><country>Macedonia</country><native>Македонски</native></lang>
+	<lang><code>no</code><iso3>nor</iso3><name>Norwegian</name><country>Norwegia</country><native>Norsk</native></lang>
+	<lang><code>mt</code><iso3>mlt</iso3><name>Maltese</name><country>Malta</country><native>Maltese</native></lang>
+	<lang><code>pl</code><iso3>pol</iso3><name>Polish</name><country>Poland</country><native>Polski</native></lang>
+	<lang><code>pt</code><iso3>por</iso3><name>Portuguese</name><country>Portugal</country><native>Português</native></lang>
+	<lang><code>ro</code><iso3>ron</iso3><name>Romanian</name><country>Romania</country><native>Română</native></lang>
+	<lang><code>ru</code><iso3>rus</iso3><name>Russian</name><country>Russia</country><native>Русский</native></lang>
+	<lang><code>es</code><iso3>spa</iso3><name>Spanish</name><country>Spain</country><native>Español</native></lang>
+	<lang><code>sr</code><iso3>srp</iso3><name>Serbo-Croatian</name><country>Serbia</country><native>Cербско-хрватски</native></lang>
+	<lang><code>sk</code><iso3>slo</iso3><name>Slovak</name><country>Slovakia</country><native>Slovenský</native></lang>
+	<lang><code>sl</code><iso3>slv</iso3><name>Slovene</name><country>Slovenia</country><native>Slovenščina</native></lang>
+	<lang><code>sv</code><iso3>swe</iso3><name>Swedish</name><country>Sweden</country><native>Svenska</native></lang>
+	<lang><code>uk</code><iso3>ukr</iso3><name>Ukrainian</name><country>Ukraine</country><native>українська мова</native></lang>
+</group>
+<group code="asia" name="Asia">
+	<lang><code>ar</code><iso3>ara</iso3><name>Arabic</name><country></country><native>العربية</native></lang>
+	<lang><code>hy</code><iso3>arm</iso3><name>Armenian</name><country>Armenia</country><native>հայերեն</native></lang>
+	<lang><code>az</code><iso3>aze</iso3><name>Azerbaijani</name><country>Azerbaijan</country><native>Azərbaycan</native></lang>
+	<lang><code>bn</code><iso3>ben</iso3><name>Bengali</name><country>Bangladesh, India</country><native>বাংলা</native></lang>
+	<lang><code>my</code><iso3>bur</iso3><name>Burmese</name><country>Burma</country><native>မြန်မာစာ</native></lang>
+	<lang><code>zh</code><iso3>chi</iso3><name>Chinese</name><country>China</country><native>粵語 / 粤语</native></lang>
+	<lang><code>cit</code><iso3>ctg</iso3><name>Chittagonian</name><country>Bangladesh</country><native>টগাঁইয়া বুলি</native></lang>
+	<lang><code>tg</code><iso3>fil</iso3><name>Filipino</name><country>Philippines</country><native>Tagalog</native></lang>
+	<lang><code>ka</code><iso3>geo</iso3><name>Georgian</name><country>Georgia</country><native>Georgian</native></lang>
+	<lang><code>he</code><iso3>heb</iso3><name>Hebrew</name><country>Israel</country><native>עִברִית</native></lang>
+	<lang><code>hi</code><iso3>hin</iso3><name>Hindi</name><country>India</country><native>हिन्दी</native></lang>
+	<lang><code>lo</code><iso3>lao</iso3><name>Lao</name><country>Laos</country><native>ພາສາລາວ</native></lang>
+	<group code="indondesia" name="Indonesia">
+			<lang><code>id</code><iso3>ind</iso3><name>Malay/Indonesian</name><country>Indonesia</country><native>Bahasa Indonesia</native></lang>
+			<lang><code>jv</code><iso3>jav</iso3><name>Javanese</name><country>Indonesia, Java</country><native>Javanese</native></lang>
+			<lang><code>su</code><iso3>sun</iso3><name>Sundanese</name><country>Java</country><native>Sundanese</native></lang>
+	</group>
+	<lang><code>ja</code><iso3>jpn</iso3><name>Japanese</name><country>Japan</country><native>日本語</native></lang>
+	<lang><code>km</code><iso3>khm</iso3><name>Khmer</name><country>Cambodia</country><native>ភាសាខ្មែរ</native></lang>
+	<lang><code>kk</code><iso3>kaz</iso3><name>Kazakh</name><country>Kazakhstan</country><native>Қазақша</native></lang>
+	<lang><code>ko</code><iso3>kor</iso3><name>Korean</name><country>S. Korea, N. Korea</country><native>한국어</native></lang>
+	<lang><code>ku</code><iso3>kur</iso3><name>Kurdish</name><country>Iran, Iraq</country><native>كوردی</native></lang>
+<!--	<lang><code>ku</code><iso3>kur</iso3><name>Kurdish</name><country>Turkey, Syria</country><native>كوردی</native></lang>-->
+	<lang><code>lo</code><iso3>lao</iso3><name>Lao</name><country>Laos, Thailand</country><native>ພາສາລາວ</native></lang>
+	<lang><code>id</code><iso3>ind</iso3><name>Malay/Indonesian</name><country>Malaysia</country><native>Bahasa Indonesia</native></lang>
+<!--	<lang><code>id</code><iso3>ind</iso3><name>Malay/Indonesian</name><country>Brunei, Singapore</country><native>Bahasa Indonesia</native></lang>-->
+	<lang><code>mn</code><iso3>mon</iso3><name>Mongolian</name><country>Mongolia</country><native>Монгол улсын</native></lang>
+	<lang><code>ne</code><iso3>nep</iso3><name>Nepali</name><country>Nepal</country><native>नेपाली</native></lang>
+	<group code="pakistan" name="Pakistan">
+		<lang><code>ur</code><iso3>urd</iso3><name>Urdu</name><country>Pakistan, India</country><native>ﺍُﺭﺩُﻭ</native></lang>
+		<lang><code>pa</code><iso3>pan</iso3><name>Punjabi</name><country>Pakistan, India</country><native>ਪੰਜਾਬੀ • پنجابی</native></lang>
+		<lang><code>mvr</code><iso3>mvr</iso3><name>Marwari</name><country>Pakistan, Nepal</country><native>मारवाड़ी</native></lang>
+		<lang><code>sd</code><iso3>snd</iso3><name>Sindhi</name><country>Pakistan, India</country><native>سنڌي</native></lang>
+	</group>
+	<lang><code>fa</code><iso3>per</iso3><name>Persian</name><country>Iran, Afganistan</country><native>فارسی</native></lang>
+<!--	<lang><code>fa</code><iso3>per</iso3><name>Persian</name><country>Tajikistan</country><native>فارسی</native></lang>-->
+	<lang><code>si</code><iso3>sin</iso3><name>Sinhalese</name><country>Sri lanka</country><native>සිංහල</native></lang>
+	<lang><code>th</code><iso3>tha</iso3><name>Thai</name><country>Thailand</country><native>ภาษาไทย</native></lang>
+	<lang><code>tr</code><iso3>tur</iso3><name>Turkish</name><country>Turkey, Cyprus</country><native>Türkçe</native></lang>
+	<lang><code>tk</code><iso3>tuk</iso3><name>Turkmen</name><country>Turkmenistan</country><native>Түркмен</native></lang>
+	<lang><code>uz</code><iso3>uzb</iso3><name>Uzbek</name><country>Uzbekistan</country><native>Ўзбек</native></lang>
+	<lang><code>vi</code><iso3>vie</iso3><name>Vietnamese</name><country>Vietnam</country><native>Tiếng Việt</native></lang>
+</group>
+<group code="latinamerica" name="Latin America">
+	<lang><code>pt</code><iso3>por</iso3><name>Portuguese</name><country>Portugal</country><native>Português</native></lang>
+	<lang><code>qu</code><iso3>que</iso3><name>Quechua</name><country>Peru, Bolivia, Ecuador</country><native>Quechua</native></lang>
+	<lang><code>es</code><iso3>spa</iso3><name>Spanish</name><country>Spain</country><native>Español</native></lang>
+</group>
+<group code="africa" name="Africa">
+	<lang><code>af</code><iso3>afr</iso3><name>Afrikaans</name><country>South Africa, Namibia</country><native>Afrikaans</native></lang>
+	<lang><code>am</code><iso3>amh</iso3><name>Amharic</name><country>Ethiopia</country><native>አማርኛ</native></lang>
+	<lang><code>ak</code><iso3>aka</iso3><name>Akan</name><country>Ghana, Ivory Coast</country><native>Twi, Fante</native></lang>
+<!--	<lang><code>ny</code><iso3>nya</iso3><name>Chewa</name><country>Malawi, Mozambique</country><native>Nyanja</native></lang>-->
+	<lang><code>ny</code><iso3>nya</iso3><name>Chewa</name><country>Zambia, Zimbabwe</country><native>Nyanja</native></lang>
+	<lang><code>ff</code><iso3>ful</iso3><name>Fula</name><country>West Africa</country><native>Fulfulde</native></lang>
+	<lang><code>ht</code><iso3>hat</iso3><name>Haitian Creole</name><country>Haiti</country><native>Kreyòl Ayisyen</native></lang>
+	<lang><code>ha</code><iso3>hau</iso3><name>Hausa</name><country>Nigeria</country><native>هَرْشَن هَوْسَ</native></lang>
+	<lang><code>ig</code><iso3>ibo</iso3><name>Igbo</name><country>Nigeria</country><native>Asụsụ Igbo</native></lang>
+	<lang><code>rw</code><iso3>kin</iso3><name>Kinyarwanda</name><country>Rwanda</country><native>Ikinyarwanda</native></lang>
+	<lang><code>rn</code><iso3>run</iso3><name>Kirundi</name><country>Burundi, Uganda</country><native>Kirundi</native></lang>
+	<lang><code>mg</code><iso3>mlg</iso3><name>Malagasy</name><country>Madagascar</country><native>Malagasy</native></lang>
+	<lang><code>mos</code><iso3>mos</iso3><name>Mossi</name><country>Burkina Faso</country><native>Mossi</native></lang>
+	<lang><code>so</code><iso3>som</iso3><name>Somali</name><country>Somalia, Ethiopia, Kenya</country><native>Af-Soomaali</native></lang>
+<!--	<lang><code>so</code><iso3>som</iso3><name>Somali</name><country>Dijibouti, Yemen</country><native>Af-Soomaali</native></lang>-->
+	<lang><code>sw</code><iso3>swa</iso3><name>Swahili</name><country>Kenya, Tanzania, Uganda</country><native>Kiswahili</native></lang>
+	<lang><code>om</code><iso3>orm</iso3><name>Oromo</name><country>Ethiopia,Kenya</country><native>Afaan Oromo</native></lang>
+	<lang><code>sn</code><iso3>sna</iso3><name>Shona</name><country>Zimbabwe</country><native>Shona</native></lang>
+	<lang><code>yo</code><iso3>yor</iso3><name>Yoruba</name><country>Nigeria, Benin, Togo</country><native>Èdè Yorùbá</native></lang>
+	<lang><code>xh</code><iso3>xho</iso3><name>Xhosa</name><country>South Africa</country><native>Xhosa</native></lang>
+	<lang><code>zu</code><iso3>zul</iso3><name>Zulu</name><country>South Africa</country><native>isiZulu</native></lang>
+</group>
+</languages>

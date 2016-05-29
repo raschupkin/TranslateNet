@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <!-- TranslateSettings form -->
+        <RelativeLayout
+	        android:id="@+id/ST_form"
+       		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+   			android:orientation="vertical" >
+         	    
+		    <TextView
+		        android:id="@+id/ST_DescrTextView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/translate_descr"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <ScrollView
+		        android:id="@+id/ST_TranslateScrollView"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@+id/ST_AddButton"
+		        android:layout_below="@id/ST_DescrTextView"
+		        android:fillViewport="true" >
+		
+		        <LinearLayout
+		            android:id="@+id/ST_TranslateListLayout"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:orientation="vertical" >
+		        </LinearLayout>
+		    </ScrollView>
+
+            <Button
+                android:id="@+id/ST_DoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/done" />
+
+            <TextView
+                android:id="@+id/ST_DescrPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/ST_DoneButton"
+                android:text="@string/translate_descr_price"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/ST_AddButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/ST_DescrPriceTextView"
+                android:text="@string/add" />
+		</RelativeLayout>
+
+</RelativeLayout>

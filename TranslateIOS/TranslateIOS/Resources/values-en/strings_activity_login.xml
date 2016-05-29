@@ -1,0 +1,28 @@
+<resources>
+	<!-- Strings related to login -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="email">"E-mail: "</string>
+    <string name="password">Password: "</string>
+    <string name="prompt_email">"Enter e-mail address: "</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_reset_password">"Reset lost password"</string>
+    <string name="progress_loading">"Loading&#8230;"</string>
+    <string name="progress_login">"Signing in&#8230;"</string>
+    <string name="error_invalid_email">"This e-mail address is invalid"</string>
+    <string name="error_long_password">"The password is too long"</string>
+    <string name="error_field_required">"This field is required"</string>
+    <string name="error_short_password">"The password is too short"</string>
+    <string name="error_incorrect_password">"This password is incorrect"</string>
+    <string name="error_timeout">"Server timeout"</string>
+    <string name="action_register">"Register"</string>
+    <string name="progress_register">"Registering&#8230;"</string>
+    <string name="register_descr">"A letter containing password will be sent to your e-mail address."</string>
+    <string name="client_caption">Client</string>
+    <string name="translator_caption">Translator</string>
+    <string name="user_created">"User created."</string>
+    <string name="ios_client_descr">"Client registration. Translator app is available  in Android version."</string>
+    <string name="action_reset">"Reset password"</string>
+    <string name="password_reset">"Password reset"</string>
+    <string name="reset">"Reset"</string>
+    <string name="reset_password_descr">"Confirmation letter will be sent to your e-mail address."</string>
+</resources>

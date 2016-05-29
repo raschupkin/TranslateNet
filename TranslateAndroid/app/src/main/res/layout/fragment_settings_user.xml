@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- UserSettings progress -->
+
+    <!--UserSettings form -->
+    <RelativeLayout
+        android:id="@+id/SU_form"
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical" >
+	    <TextView
+    	    android:id="@+id/SU_NameDescrTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/name_descr"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+ 	    <EditText
+        	android:id="@+id/SU_NameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_below="@id/SU_NameDescrTextView"
+	        android:enabled="true"
+            android:inputType="textCapSentences"
+            android:maxLines="1"
+            android:minEms="15"
+            android:singleLine="true" />
+	    <TextView
+    	    android:id="@+id/SU_EmailLabelTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:layout_below="@id/SU_NameEditText"
+        	android:text="@string/email"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+    	    android:id="@+id/SU_EmailTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:layout_below="@id/SU_NameEditText"
+			android:layout_toRightOf="@id/SU_EmailLabelTextView"
+        	android:text="@string/default_value"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+    	    android:id="@+id/SU_BalanceLabelTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:layout_below="@id/SU_EmailTextView"
+        	android:text="@string/balance"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+    	    android:id="@+id/SU_BalanceTextView"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:layout_below="@id/SU_EmailTextView"
+			android:layout_toRightOf="@id/SU_BalanceLabelTextView"
+        	android:text="@string/default_value"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+     </RelativeLayout>
+    <Button
+        android:id="@+id/SU_DoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:enabled="true"
+        android:text="@string/done" />
+    <RelativeLayout
+        android:id="@+id/SU_BillingLayout"
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:orientation="vertical" >
+         <TextView
+             android:id="@+id/SU_CreditDescr"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/credit_descr"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+   	   	<Button
+			android:id="@+id/SU_Billing1Button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:layout_below="@id/SU_CreditDescr"
+	        android:enabled="true"
+			android:text="@string/credit1" />
+         <Button
+             android:id="@+id/SU_Billing2Button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/SU_Billing1Button"
+             android:enabled="true"
+             android:text="@string/credit2" />
+	   	<Button
+			android:id="@+id/SU_Billing5Button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/SU_Billing2Button"
+	        android:enabled="true"
+			android:text="@string/credit5" />
+		<Button
+			android:id="@+id/SU_Billing10Button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/SU_Billing5Button"
+	        android:enabled="true"
+			android:text="@string/credit10" />
+         <Button
+             android:id="@+id/SU_Billing25Button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/SU_Billing10Button"
+             android:enabled="true"
+             android:text="@string/credit25" />
+		</RelativeLayout>
+	    <RelativeLayout
+	        android:id="@+id/SU_PayPalLayout"
+	   		android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:orientation="vertical" >
+		    <TextView
+	    	    android:id="@+id/SU_PayPalLabelTextView"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/paypal_acc"
+	        	android:textAppearance="?android:attr/textAppearanceMedium" />
+		   	<Button
+				android:id="@+id/SU_PayPalEditButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+		        android:enabled="true"
+				android:text="@string/edit" />
+		    <TextView
+	    	    android:id="@+id/SU_PayPalEmailTextView"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+				android:layout_below="@id/SU_PayPalLabelTextView"
+	        	android:text="@string/default_value"
+	        	android:textAppearance="?android:attr/textAppearanceMedium" />
+		   	<Button
+				android:id="@+id/SU_PayPalTransferButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/SU_PayPalEmailTextView"
+		        android:enabled="true"
+				android:text="@string/transfer" />
+		    <TextView
+	    	    android:id="@+id/SU_PayPalTransferNoteView"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+				android:layout_below="@id/SU_PayPalTransferButton"
+	        	android:text="@string/transfer_note"
+	        	android:textAppearance="?android:attr/textAppearanceMedium" />
+		</RelativeLayout>
+</RelativeLayout>

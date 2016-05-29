@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/SPR_DescrTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_price_descr"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	    <TextView
+	        android:id="@+id/SPR_LanguageLabelTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/lang"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+	        android:id="@+id/SPR_LanguageTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/default_value"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp" >
+   	    <TextView
+    	    android:id="@+id/SPR_PriceLabelTextView"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:text="@string/price"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/SPR_DollarsEditText"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+    		android:minEms="2"
+    		android:singleLine="true"
+    		android:text="1"
+    		android:inputType="number" />
+	    <TextView
+    	    android:id="@+id/SPR_DollarLabelTextView"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:text="$"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/SPR_CentsEditText"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+    		android:minEms="2"
+    		android:singleLine="true"
+    		android:scrollHorizontally="true"
+    		android:text="0"
+    		android:inputType="number" />
+	    <TextView
+    	    android:id="@+id/SPR_CentLabelTextView"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:text="@string/cents_min"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >	    
+	    <Button
+	        android:id="@+id/SPR_CancelButton"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_weight=".50"
+	        android:text="@string/cancel" />
+	    <Button
+	        android:id="@+id/SPR_DoneButton"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_weight=".50"
+	        android:text="@string/done" />
+    	</LinearLayout>
+    	<TextView
+	   	    android:id="@+id/SPR_NotesTextView"
+	       	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	   	    android:text="@string/notes"
+	       	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	   	    android:id="@+id/SPR_NoteFeeTextView"
+	       	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	   	    android:text="@string/note_fee1"
+			android:singleLine="false"
+ 	       	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	   	    android:id="@+id/SPR_NoteAverageTextView"
+	       	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	   	    android:text="@string/note_average"
+	       	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	   	    android:id="@+id/SPR_NoteSiteTextView"
+	       	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	   	    android:text="@string/note_site"
+	       	android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>

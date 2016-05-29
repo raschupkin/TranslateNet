@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    tools:context="com.translatenet.TListFragment" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <TextView
+            android:id="@+id/TList_NativeLangLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/native_lang"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/TList_ListLangLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/list_lang"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		<LinearLayout 
+		    android:id="@+id/TList_Langs" 
+		    android:orientation="horizontal"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="fill_parent" 
+	        android:layout_below="@id/TList_NativeLangLabelTextView" >
+	        <Button
+	            android:id="@+id/TList_NativeLangButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:text="@string/default_value" />
+	        <Button
+	            android:id="@+id/TList_ListLangButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:text="@string/default_value" />
+	   	</LinearLayout>
+
+        <TextView
+            android:id="@+id/TList_NoTranslators"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/TList_Langs"
+            android:text="@string/no_translators"
+            android:visibility="gone"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ScrollView
+            android:id="@+id/TList_ScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TList_NoTranslators"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:id="@+id/TList_ScrollViewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout
+            android:id="@+id/TList_BalanceLayout"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:id="@+id/TList_BalanceLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/balance"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/TList_BalanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TList_BalanceLabelTextView"
+                android:text="@string/default_value"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <Button
+                android:id="@+id/TList_PurchaseCreditsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:text="@string/purchase_credits" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

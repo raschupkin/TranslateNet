@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/PCall_ConfirmedLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/phonecall_unknown"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/PCall_NameLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_ConfirmedLabelTextView"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/PCall_NameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_ConfirmedLabelTextView"
+        android:layout_toRightOf="@+id/PCall_NameLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/PCall_ClientLangLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_NameLabelTextView"
+        android:text="@string/lang"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_ClientLangTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_NameLabelTextView"
+        android:layout_toRightOf="@+id/PCall_ClientLangLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/PCall_TranslateLangLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_ClientLangLabelTextView"
+        android:text="@string/translate"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_TranslateLangTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_ClientLangLabelTextView"
+        android:layout_toRightOf="@+id/PCall_TranslateLangLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/PCall_PriceLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_TranslateLangLabelTextView"
+        android:text="@string/price"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_PriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_TranslateLangLabelTextView"
+        android:layout_toRightOf="@+id/PCall_PriceLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_CostLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_PriceLabelTextView"
+        android:text="@string/cost"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_CostTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_PriceLabelTextView"
+        android:layout_toRightOf="@+id/PCall_CostLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_BalanceLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_CostLabelTextView"
+        android:text="@string/balance"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_BalanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_CostLabelTextView"
+        android:layout_toRightOf="@+id/PCall_BalanceLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/PCall_PurchaseCreditsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_CostLabelTextView"
+        android:layout_alignParentRight="true"
+        android:text="@string/purchase_credits" />
+
+    <TextView
+        android:id="@+id/PCall_StatusLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_BalanceLabelTextView"
+        android:text="@string/status"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_StatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_BalanceLabelTextView"
+        android:layout_toRightOf="@+id/PCall_StatusLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_LengthLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_StatusLabelTextView"
+        android:text="@string/length"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PCall_LengthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_StatusLabelTextView"
+        android:layout_toRightOf="@+id/PCall_LengthLabelTextView"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/PCall_CallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PCall_LengthLabelTextView"
+        android:text="@string/pcall_verb" />
+
+    <Button
+        android:id="@+id/PCall_CancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/PCall_CallButton"
+        android:layout_alignBottom="@+id/PCall_CallButton"
+        android:layout_alignParentRight="true"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/PCall_CancelAlertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PCall_CallButton"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="@string/cancel_alert" />
+
+
+</RelativeLayout>
