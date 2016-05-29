@@ -773,7 +773,6 @@ int SessionManager::sendEmail_ResetPassword(char *email, char *reset_uid, string
 
 int SessionManager::sendEmail_NewPassword(char *email, char *password, string lang)
 {
-//m.to = "raschupkin.ri@mail.ru";
 	string topic = "Translate-Net new password";
 	string message = "Translate-Net<br>";
 	message += "Account: ";
@@ -1263,14 +1262,9 @@ SessionManager::SessionManager(int _ThreadN, pthread_t _main_thread, Driver *_sq
 void SessionManager::test_email()
 {
 	Email *m = new Email();
-//	m.helo = "gmail.com";
 	m->helo = "smtp.mail.ru";
-//	m.auth = "";
 	m->from = "translate-net@mail.ru";
-//	m.helo = "mail.ru";
-//	m.auth = "cmFzY2h";
-//	m.from = "raschupkin.ri@mail.ru";
-	m->to = "raschupkin.ri@mail.ru";
+	m->to = "login@mail.ru";
 	m->topic = "test3";
 	m->message = "Test\n test email 3";
 	serviceEmail.EnqueueTask(m);
